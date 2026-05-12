@@ -1,0 +1,20 @@
+-------------------------------------------------
+Thesis plan
+Authors:
+Viet Tien Trinh
+Zerui Wang
+-------------------------------------------------
+
+- Data: The dataset was collected at 'Hospital Universitario de Caracas' in Caracas, Venezuela. The dataset comprises demographic information, habits, and historic medical records of 858 patients. Several patients decided not to answer some of the questions because of privacy concerns (missing values).
+
+- link:
+https://archive.ics.uci.edu/dataset/383/cervical+cancer+risk+factors
+
+- Thesis's goal:
+Using machine learning models to find the best fit model to data material to predict the patient's biopsy is yes or no, from that we can know the patient have cancer or not.
+
+- Methods:
++ 4 models will be used here (logistic regression, LASSO logistic regression, randomforest model och XGboost). 
++ 3 scenario will be carried out (one training models direct after cleaning data, one will use SMOTE to fix the unbalance data problem and one will use class weight method to the minority class which is yes class).
++ Use many measures (confusion matrix, sens, spec, PR AUC, MCC, ROC curl, precison-recall-curl) to evaluate and compare between models.
++ After found the best model, find the importance variable which have clearly effects to the target (y).       
