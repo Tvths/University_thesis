@@ -34,7 +34,7 @@ Cervical cancer is one of the most preventable cancers when detected early. This
 |**Features**|36 variables — demographics, habits, STD history, contraceptive use|
 |**Target variable**|`Biopsy`: `1` = cancer positive, `0` = negative|
 |**Missing values**|Present — encoded as `?` in the raw file; some patients declined to answer|
-|**UCI Repository**|[Cervical Cancer Risk Factors](https://archive.uci.edu/dataset/383/cervical+cancer+risk+factors)|
+|**UCI Repository**|[Cervical Cancer Risk Factors](https://archive.ics.uci.edu/dataset/383/cervical+cancer+risk+factors)|
 
 > ⚠️ The dataset is \*\*not included\*\* in this repository. Download it from the UCI link above and place it at `Dataset/risk\_factors\_cervical\_cancer.csv`.
 
