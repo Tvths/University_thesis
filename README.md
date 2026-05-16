@@ -36,7 +36,6 @@ Cervical cancer is one of the most preventable cancers when detected early. This
 |**Missing values**|Present — encoded as `?` in the raw file; some patients declined to answer|
 |**UCI Repository**|[Cervical Cancer Risk Factors](https://archive.ics.uci.edu/dataset/383/cervical+cancer+risk+factors)|
 
-> ⚠️ The dataset is \*\*not included\*\* in this repository. Download it from the UCI link above and place it at `Dataset/risk\_factors\_cervical\_cancer.csv`.
 
 ### Preprocessing decisions
 
